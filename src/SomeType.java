@@ -14,6 +14,8 @@ public class SomeType <T>{
 
     public void test(List<Integer> integerList){
         for(Integer integer: integerList){
+
+            // да, подтверждаю из ветки мастер, что мы инициируем конфликт
             System.out.println(integer);
         }
     }
