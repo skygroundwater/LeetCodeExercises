@@ -17,7 +17,12 @@ public class Main {
     private static int getFirstUnique(int[] arr) {
 
         Map<Integer, Boolean> values = new HashMap<>();
-        
+
+        for (Map.Entry<Integer, Boolean> entry : values.entrySet()) {
+            if (entry.getValue()) {
+                return entry.getKey();
+            }
+        }
         return 0;
     }
 }
