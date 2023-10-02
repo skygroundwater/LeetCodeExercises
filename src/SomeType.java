@@ -10,6 +10,8 @@ public class SomeType <T>{
         }
     }
 
+    // добавляю изменения для создания конфликта
+
     public void test(List<Integer> integerList){
         for(Integer integer: integerList){
             System.out.println(integer);
