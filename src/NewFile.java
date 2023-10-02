@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public class NewFile {
+public class NewFile {
+    //просто новый файл для конфликта
 }
